@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    height: 100%;
+    margin-left: 70px;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 50%;
+    border-radius: 50%;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.img-64px {
+    height: 64px;
+    width: 64px;
+}
+
+.header .icon {
+    height: 100%;
+    display: flex;
+    margin-right: 75px;
+    align-items: center;
+}
+
+.header .icon img {
+    height: 50%;
+    border-radius: 50%;
+}
+
+.left_sidebar {
+    background-color: peru;
+    float: left;
+    height: 100vh;
+    width: 20%;
+}
+.content {
+    background-color: plum;
+    float: left;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.right_sidebar {
+    background-color: red;
+    float: left;
+    height: 100vh;
+    width: 20%;
+}
+
+
+.footer {
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .name-project {
+    margin-left: 10px;
+}
+
+.footer .infor-author {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.footer .author-1 {
+    margin-right: 250px;
+}
