@@ -12,9 +12,9 @@
 .header {
     width: 100%;
     height: 80px;
-    background: #ff9999;
     display: flex;
     justify-content: space-between;
+    background: #ff9999;
 }
 
 .header li {
@@ -70,6 +70,12 @@ input[type="text"]:focus{
     height: 50%;
     border-radius: 50%;
 }
+/*
+.main {
+    background-color: #FFEFD5;
+}
+*/
+
 
 .menu {
     width: 100%;
@@ -97,15 +103,25 @@ ul {
 
 .left_sidebar {
     float: left;
-    height: 100vh;
-    width: 20%;
-}
-.content {
-    background-color: #FFEFD5;
-    float: left;
-    width: 60%;
+    width: 250px;
     height: 100vh;
     display: flex;
+    align-items: center;
+}
+
+.left_sidebar img {
+    /* margin: 5px 0px; */
+    width: 250px;
+    height: 60vh;
+}
+
+.content {
+    margin: 5px;
+    float: left;
+    width: 992px;
+    height: 105vh;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     flex-direction: row;
     text-align: center;
 }
@@ -113,11 +129,32 @@ ul {
 .right_sidebar {
     float: left;
     height: 100vh;
-    width: 20%;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
+
+.right_sidebar img {
+    /* margin: 5px 0px; */
+    width: 250px;
+    height: 60vh;
+}
+
+.product {
+    float: left;
+    /*background-color: transparent;*/
+    background-color: lavenderblush;
+    margin: 5px;
+}
+
+.product img {
+    margin: 10px;
+    width: 250px;
 }
 
 
 .footer {
+    float: left;
     background-color: cornflowerblue;
     width: 100%;
     height: 55px;
