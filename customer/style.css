@@ -70,13 +70,10 @@ input[type="text"]:focus{
     height: 50%;
     border-radius: 50%;
 }
-/*
-.main {
-    background-color: #FFEFD5;
+
+#btn_account{
+    border-radius: 50%;
 }
-*/
-
-
 .menu {
     width: 100%;
     height: 45px;
@@ -101,49 +98,77 @@ ul {
 }
 
 
-.left_sidebar {
-    float: left;
-    width: 250px;
-    height: 100vh;
+.main {
+    width: 1800px;
+    height: 1000px;
     display: flex;
-    align-items: center;
 }
-
-.left_sidebar img {
-    /* margin: 5px 0px; */
-    width: 250px;
-    height: 60vh;
-}
-
-.content {
-    margin: 5px;
+ 
+.left_sidebar, .right_sidebar{
     float: left;
-    width: 992px;
-    height: 105vh;
+    width: 150px;
+    height: 1000px;
+    background-color: red;
+    /* display: flex; */
+}
+
+.left_sidebar img, .right_sidebar img  {
+    margin: 5px;
+    width: 140px;
+    height: 500px;
+    display: flex;
+    float: left;
+    overflow: visible;
+}
+.accessories {
+    margin-top: 5px;
+    width: 200px;
+    height: 1000px;
+    float: left;
+}
+
+.accessories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: tomato;
+}
+
+.accessories li a {
+    color: white;
+    display: block;
+    width: 200px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.accessories li a.active {
+    background-color: wheat;
+    color: white;
+}
+
+.accessories li a:hover {
+    background-color: #ff9999;
+    color: white;
+}
+
+.Products {
+    background-color: red;
+    float: left;
+    width: 1000px;
+    height: 1000px;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
     flex-direction: row;
     text-align: center;
 }
 
-.right_sidebar {
-    float: left;
-    height: 100vh;
-    width: 250px;
-    display: flex;
-    align-items: center;
-}
-
-.right_sidebar img {
-    /* margin: 5px 0px; */
-    width: 250px;
-    height: 60vh;
-}
-
 .product {
+    border-radius: 5px;
     float: left;
     /*background-color: transparent;*/
-    background-color: lavenderblush;
+    background-color: white;
     margin: 5px;
 }
 

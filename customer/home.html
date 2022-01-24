@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Di động Hoa Phước - Trang Chủ</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <link rel="stylesheet" href="styleContent.css"/>
+    <!-- gio hang -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- account -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <div class="container">
@@ -19,12 +23,12 @@
                 <input type="text" placeholder="Tìm kiếm..."/>
             </div>
 
-            
+            <!-- <a><img src="../public/shopping-cart.png"></a> -->
+            <a><i class="fa fa-shopping-cart"></i></a>
+            <!-- <button style="font: size 65px;"><i class="fa fa-shopping-cart"></i></button> -->
 
             <div class="icon">
-                <div >
-                    <img src="../public/icon_account.png" class="img-64px" alt="icon_account">
-                </div>
+                <button style='font-size:24px' background-color="transparent"><i class='fa fa-user-circle'></i></button>
                 <ul>
                     <li><a href="../admin/login.html"><i>Login</i></a></li>
                     <li><a href=""><i> Sign in</i></a></li>
@@ -37,71 +41,77 @@
                 Chào mừng quý khách đến với di động HP
             </marquee>
         </div>
-        <div id="main">
-
-            <div class="menu">
-                <ul>
-                    <li><a href="home.html">Trang chủ</a></li>
-                    <li><button id="Vsmart-btn"><a id="Vsmart">Vsmart</a></button></li>
-                    <li><a href="">Bphone</a></li>
-                    <li><a href="">SamSung</a></li>
-                    <li><a href="">Apple</a></li>
-                    <li><a href="">Oppo</a></li>
-                    <li><a href="">Xiaomi</a></li>
-                    <li><a href="">Vivo</a></li>
-                    <li><a href="">Nokia</a></li>
-                </ul>
-            </div>
-
-            <div class="left_sidebar">
-                <img src="../public/imgPhone/iphone.png">        
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Trang chủ</a></li>
+                <li><a href="">Sản phẩm thịnh hành</a></li>
+                <li><button id="Vsmart-btn"><a id="Vsmart">Vsmart</a></button></li>
+                <li><a href="">Bphone</a></li>
+                <li><a href="">SamSung</a></li>
+                <li><a href="">Apple</a></li>
+                <li><a href="">Oppo</a></li>
+                <li><a href="">Xiaomi</a></li>
+                <li><a href="">Vivo</a></li>
+                <li><a href="">Nokia</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="left_sidebar">                    
+                <img src="../public/bannerTet.jpg">                 
             </div>
 
             <div class="content">
-                <div class="product">
-                    <a href="detailProduct.html">
-                        <img src="../public/imgPhone/iphone.jpg" alt="iphone">
-                        <h3>Iphone 13</h3>
+                <div class="accessories">
+                    <ul>
+                        <li><a href="">Ốp lưng</a></li>
+                        <li><a href="">Kính cường lực</a></li>
+                        <li><a href="">tai nghe</a></li>  
+                    </ul>                  
+                </div>
+                <div class="Products">
+                    <div class="product">
+                        <a href="detailIphone.html">
+                            <img src="../public/imgPhone/iphone.jpg" alt="iphone">
+                            <h3>Iphone 13</h3>
+                            <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
+                            <p color="red">Giá: 30.000.000 VND</p>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <img src="../public/imgPhone/SSGalaxyZFlip.jpg">
+                        <h3>SSGalaxyZFlip</h3>
                         <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
-                        <p color="red">Giá: 30.000.000 VND</p>
-                    </a>
-                </div>
-                <div class="product">
-                    <img src="../public/imgPhone/SSGalaxyZFlip.jpg">
-                    <h3>SSGalaxyZFlip</h3>
-                    <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
-                    <p color="red">Giá: 23.000.000 VND</p>
-                </div>
-                <div class="product">
-                    <img src="../public/imgPhone/RedmiNote8.png">
-                    <h3>RedmiNote8</h3>
-                    <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
-                    <p color="red">Giá: 7.000.000 VND</p>
-                </div>
-                <div class="product">
-                    <img src="../public/imgPhone/Vsmart.jpg" alt="iphone">
-                    <h3>Vsmart</h3>
-                    <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
-                    <p color="red">Giá: 3.000.000 VND</p>
-                </div>
-                <div class="product">
-                    <img src="../public/imgPhone/oppo.jpg">
-                    <h3>Oppo</h3>
-                    <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
-                    <p color="red">Giá: 9.000.000 VND</p>
-                </div>
-                <div class="product">
-                    <img src="../public/imgPhone/vivo.jpg">
-                    <h3>Vivo</h3>
-                    <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
-                    <p color="red">Giá: 5.000.000 VND</p>
-                </div>
-              
-
+                        <p color="red">Giá: 23.000.000 VND</p>
+                    </div>
+                    <div class="product">
+                        <img src="../public/imgPhone/RedmiNote8.png">
+                        <h3>RedmiNote8</h3>
+                        <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
+                        <p color="red">Giá: 7.000.000 VND</p>
+                    </div>
+                    <div class="product">
+                        <img src="../public/imgPhone/Vsmart.jpg" alt="iphone">
+                        <h3>Vsmart</h3>
+                        <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
+                        <p color="red">Giá: 3.000.000 VND</p>
+                    </div>
+                    <div class="product">
+                        <img src="../public/imgPhone/oppo.jpg">
+                        <h3>Oppo</h3>
+                        <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
+                        <p color="red">Giá: 9.000.000 VND</p>
+                    </div>
+                    <div class="product">
+                        <img src="../public/imgPhone/vivo.jpg">
+                        <h3>Vivo</h3>
+                        <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
+                        <p color="red">Giá: 5.000.000 VND</p>
+                    </div>
+                </div>      
             </div>
 
             <div class="right_sidebar">
-                <img src="../public/imgPhone/samsung-galaxy-z-flip.jpg"> 
+                <img src="../public/bannerTet.jpg">
             </div>
 
         </div>
