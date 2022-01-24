@@ -187,6 +187,10 @@
     background-color: black;
 }
 
+.active-menu {
+    background-color: black;
+}
+
 .main-content {
     width: 100%;
     height: auto;
@@ -301,6 +305,15 @@
 .form-add-new input {
     width: 70%;
     height: 25px;
+}
+
+.form-add-new select {
+    width: 70%;
+    height: 30px;
+}
+
+.form-add-new label {
+   font-weight: bold;
 }
 
 .form-add-new button {
