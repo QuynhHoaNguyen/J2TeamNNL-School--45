@@ -4,81 +4,238 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Di động Hoa Phước - Trang Chủ</title>
-    <link rel="stylesheet" href="styleDetail.css" />
-    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleProducts.css"/>
+    <!-- gio hang -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- account -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <div class="logo display-flex">
-                <img src="../public/logoHP.svg.png" alt="logoHP">
-                <p><i>Di động Hoa Phước</i></p>
-            </div>
 
+        <div class="header">
+
+            <div class="logo display-flex">
+                <p><i class="name">Group 45</i></p>
+            </div>
             <div class="search display-flex">
                 <input type="text" placeholder="Tìm kiếm..."/>
-            </div>
-
-            
-
-            <div class="icon">
-                <div >
-                    <img src="../public/icon_account.png" class="img-64px" alt="icon_account">
+            </div>            
+            <div class="shopping-icon">         
+                <div class="icon">
+                    <button style='font-size:24px' background-color="transparent"><i class='fa fa-user-circle'></i></button>
                 </div>
-                <ul>
-                    <li><a href="../admin/login.html"><i>Login</i></a></li>
-                    <li><a href=""><i> Sign in</i></a></li>
-                </ul>
+                <div class="shopping-cart">
+                    <a><i class="fa fa-shopping-cart"></i></a>
+                </div>
             </div>
-
         </div>
-        <div>
+
+        <div class="marqueeFont">
             <marquee direction="left" behavior="alternate">
-                Chào mừng quý khách đến với di động HP
+                <b>Chào mừng quý khách đến với group 45</b>
             </marquee>
         </div>
-        <div id="main">
 
-            <div class="menu">
-                <ul>
-                    <li><a href="home.html">Trang chủ</a></li>
-                    <li><a href="">Sản phẩm thịnh hành</a></li>
-                    <li><button id="Vsmart-btn"><a id="Vsmart">Vsmart</a></button></li>
-                    <li><a href="">Bphone</a></li>
-                    <li><a href="">SamSung</a></li>
-                    <li><a href="">Apple</a></li>
-                    <li><a href="">Oppo</a></li>
-                    <li><a href="">Xiaomi</a></li>
-                    <li><a href="">Vivo</a></li>
-                    <li><a href="">Nokia</a></li>
-                </ul>
-            </div>
+        <div class="menu">
+            <ul>
+                <li><a href="home.html">Trang chủ</a></li>
+                <li><a href="Vsmart">Vsmart</a></li>
+                <li><a href="">Bphone</a></li>
+                <li><a href="">SamSung</a></li>
+                <li><a href="">Apple</a></li>
+                <li><a href="">Oppo</a></li>
+                <li><a href="">Xiaomi</a></li>
+                <li><a href="">Vivo</a></li>
+                <li><a href="">Nokia</a></li>
+            </ul>
+        </div>
 
-            <div class="left_sidebar">
-                <img src="../public/imgPhone/iphone.png">        
+        <div class="main">
+
+            <div class="left_sidebar">                    
+                <!-- <img src="../public/bannerTet.jpg">                 -->                
+                <p>
+                    <b>Vạn</b>
+                    <b>Sự</b>
+                    <b>Như</b>
+                    <b>Ý</b>
+                </p>
             </div>
 
             <div class="content">
-                <div class="product">
-                    <img src="../public/imgPhone/iphone.jpg" alt="iphone">
-                    <h3>Iphone 13</h3>
-                    <div class="starRating"><img src="../public/imgPhone/starRating.png"></div>
-                    <p color="red">Giá: 30.000.000 VND</p>
-                </div>          
-                <div>
-                    <h2>Mô tả sản phẩm: </h2>
-                    <p>Bla bla bla</p>
-                    <button>Yêu thích</button>
-                    <button>Mua ngay</button>
-                    <button>Thêm vào giỏi hàng</button>
-                    <button>Chia sẻ</button>
+                <div class="breackscrum">
+                    breackscrum
                 </div>
-                
+                <div class="accessories">
+                    <ul>
+                        <li><a href="">Ốp lưng</a></li>
+                        <li><a href="">Kính cường lực</a></li>
+                        <li><a href="">Tai nghe</a></li>  
+                    </ul>                  
+                </div>
 
+                <div class="center">
+
+                    <div class="productInfo">
+                        <div class="img_pi">
+                            <img src="../public/imgPhone/iphone13.jpg">
+                        </div>
+
+                        <div class="info">
+                            <h3 style="margin:5px 10px;">Điện thoại iPhone 13 - Hàng chính hãng - Màu Hồng - 128GB</h3>
+                            <div class="star">
+                                <img src="../public/imgPhone/starRating.png">
+                                <p>| Đã bán : 2 </p>
+                            </div>
+                            </br>
+                            <p class="price">22.489.000 ₫</p> <br>
+                            <label>Số lượng:</label> <br><br>
+                            <input type="number" id="so" value="So"><br>
+                            </br>
+                            <button class="chooseToBuy"><b>Chọn mua</b></button>
+                        </div>
+                    </div>
+
+                    <div class="sptt_p"> 
+                        <p style="margin-top: 7px;
+                                  margin-bottom: 0px;">
+                            Sản phẩm tương tự
+                        </p>
+                    </div>
+                    <div class="similarProducts">                        
+                        <div class="similarProduct">
+                            <a href="detailIphone.html">
+                                <img src="../public/imgPhone/iphone.jpg" alt="iphone">
+                                <h3>Iphone 13</h3>
+                                <p class="colorRed">30.000.000 VND</p>
+                            </a>
+                        </div>
+                        <div class="similarProduct">
+                            <a>
+                                <img src="../public/imgPhone/SSGalaxyZFlip.jpg">
+                                <h3>SSGalaxyZFlip</h3>
+                                <p class="colorRed">23.000.000 VND</p>
+                            </a>                           
+                        </div>
+                        <div class="similarProduct">
+                            <a>
+                                <img src="../public/imgPhone/RedmiNote8.png">
+                                <h3>RedmiNote8</h3>
+                                <p class="colorRed">7.000.000 VND</p>
+                            </a>
+                        </div>
+                        <div class="similarProduct">
+                            <a>
+                                <img src="../public/imgPhone/Vsmart.jpg" alt="iphone">
+                                <h3>Vsmart</h3>
+                                <p class="colorRed">3.000.000 VND</p>
+                            </a>                            
+                        </div>
+                    </div>
+
+                    <div class="details">
+                        <p>Thông tin chi tiết sản phẩm</p>
+                        <div class="detail">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td>Bluetooth</td>
+                                        <td>v5.0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thương hiệu</td>
+                                        <td>Apple</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chip set</td>
+                                        <td>Apple A15</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chức năng khác</td><td>GPS, GLONASS, Galileo, QZSS, and BeiDou</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kích thước</td><td><p>146,7 x 71,5 x 7,65mm</p></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Loại / Công nghệ màn hình</td>
+                                        <td>Màn hình super Retina XDR, OLED, 460 ppi, HDR display, 
+                                        công nghệ True Tone Wide color (P3), Haptic Touch, 
+                                        Lớp phủ oleophobic chống bám vân tay</td>
+                                    </tr>
+                                    <tr>
+                                        <td>FM radio</td>
+                                        <td>Không</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jack tai nghe</td>
+                                        <td>Lightning</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bộ nhớ khả dụng</td>
+                                        <td>128GB, 256GB, 512 GB</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Số sim</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Loại Sim</td>
+                                        <td>1 Nano SIM và 1 eSIM hoặc 2 eSIM</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Lưu ý</td>
+                                        <td>CHỈ XUẤT HÓA ĐƠN VAT TRONG 24H KỂ TỪ KHI NHẬN HÀNG</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chất liệu</td>
+                                        <td>Viền nhôm, kính cường lực Ceramic Shield phía trước</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Cổng sạc</td>
+                                        <td>Lightning</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trọng lượng</td>
+                                        <td>174g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Độ phân giải</td>
+                                        <td>1170 x 2532 pixels</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kích thước màn hình</td>
+                                        <td>6.1 inch</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wifi</td>
+                                        <td>WiFi 6 (802.11ax)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Có thuế VAT</td>
+                                        <td>Có</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="productDescription">
+
+                    </div>  
+                </div>
+                    
             </div>
 
             <div class="right_sidebar">
-                <img src="../public/imgPhone/samsung-galaxy-z-flip.jpg"> 
+                <!-- <img src="../public/bannerTet.jpg"> -->
+                <p>
+                    <b>Đắc</b>
+                    <b>Lộc</b>
+                    <b>Toàn</b>
+                    <b>Bug</b>
+                </p>
             </div>
 
         </div>
